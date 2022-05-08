@@ -44,7 +44,7 @@ def l1_loss(pred, target):
 
 
 
-@MATCH_COST.register_module()
+# @MATCH_COST.register_module()
 class DiceCost(object):
     """IoUCost.
 
